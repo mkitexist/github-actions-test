@@ -1,0 +1,45 @@
+2022-03-19T12:12:54.7437830Z Requested labels: ubuntu-latest
+2022-03-19T12:12:54.7437886Z Job defined at: mkitexist/github-actions-test/.github/workflows/simple.yml@refs/heads/master
+2022-03-19T12:12:54.7437928Z Waiting for a runner to pick up this job...
+2022-03-19T12:12:55.0209826Z Job is waiting for a hosted runner to come online.
+2022-03-19T12:12:58.0609872Z Job is about to start running on the hosted runner: Hosted Agent (hosted)
+2022-03-19T12:13:00.4881281Z Current runner version: '2.288.1'
+2022-03-19T12:13:00.4914145Z ##[group]Operating System
+2022-03-19T12:13:00.4914849Z Ubuntu
+2022-03-19T12:13:00.4915162Z 20.04.4
+2022-03-19T12:13:00.4915536Z LTS
+2022-03-19T12:13:00.4916026Z ##[endgroup]
+2022-03-19T12:13:00.4916401Z ##[group]Virtual Environment
+2022-03-19T12:13:00.4916883Z Environment: ubuntu-20.04
+2022-03-19T12:13:00.4917342Z Version: 20220227.1
+2022-03-19T12:13:00.4917979Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20220227.1/images/linux/Ubuntu2004-Readme.md
+2022-03-19T12:13:00.4918916Z Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20220227.1
+2022-03-19T12:13:00.4919526Z ##[endgroup]
+2022-03-19T12:13:00.4920023Z ##[group]Virtual Environment Provisioner
+2022-03-19T12:13:00.4920444Z 1.0.0.0-main-20220307-1
+2022-03-19T12:13:00.4920907Z ##[endgroup]
+2022-03-19T12:13:00.4922572Z ##[group]GITHUB_TOKEN Permissions
+2022-03-19T12:13:00.4923481Z Actions: write
+2022-03-19T12:13:00.4924025Z Checks: write
+2022-03-19T12:13:00.4924590Z Contents: write
+2022-03-19T12:13:00.4924967Z Deployments: write
+2022-03-19T12:13:00.4925401Z Discussions: write
+2022-03-19T12:13:00.4925785Z Issues: write
+2022-03-19T12:13:00.4926167Z Metadata: read
+2022-03-19T12:13:00.4926573Z Packages: write
+2022-03-19T12:13:00.4926983Z Pages: write
+2022-03-19T12:13:00.4927342Z PullRequests: write
+2022-03-19T12:13:00.4927801Z RepositoryProjects: write
+2022-03-19T12:13:00.4928309Z SecurityEvents: write
+2022-03-19T12:13:00.4928770Z Statuses: write
+2022-03-19T12:13:00.4929119Z ##[endgroup]
+2022-03-19T12:13:00.4933556Z Secret source: Actions
+2022-03-19T12:13:00.4934286Z Prepare workflow directory
+2022-03-19T12:13:00.5990707Z Prepare all required actions
+2022-03-19T12:13:00.7726285Z ##[group]Run eccho "Hello world"
+2022-03-19T12:13:00.7726831Z [36;1meccho "Hello world"[0m
+2022-03-19T12:13:00.8395700Z shell: /usr/bin/bash -e {0}
+2022-03-19T12:13:00.8396203Z ##[endgroup]
+2022-03-19T12:13:00.9069235Z /home/runner/work/_temp/7a28485d-ade1-46bf-a3e8-a434df19a452.sh: line 1: eccho: command not found
+2022-03-19T12:13:00.9098050Z ##[error]Process completed with exit code 127.
+2022-03-19T12:13:00.9409064Z Cleaning up orphan processes
