@@ -1,0 +1,33 @@
+name: chethan
+age: 28
+address: "mandya bedagi"
+active: true
+objectstyle:
+       key1: value
+       key2: 33
+       key3:
+                key : value
+                key2: value
+jsonobject: {key: value,key3: 33,key1: {key: hii}}
+
+arraystyle: 
+          - item1
+          - item2 //way of declaring an array
+          - item3
+          - key: 
+                      hi
+arrayofobjectstyl2:
+             - hiii: value
+               bii: value
+             - hii1: value
+               bii1: value
+longtext: > 
+          what is that yoiu are looking 
+          into man and im onto my skjsdfs 
+          kjaffsjfsd kjfjsfkjhfkjkjsfksdhfjkj jkfskjfjksf uihuiwiuuwiuw
+          iuwiwiuyiqwyryiwruisbchjdsfj 
+longtextTopreserveNextLine: |
+          what is that yoiu are looking 
+          into man and im onto my skjsdfs 
+          kjaffsjfsd kjfjsfkjhfkjkjsfksdhfjkj jkfskjfjksf uihuiwiuuwiuw
+          iuwiwiuyiqwyryiwruisbchjdsfj 
