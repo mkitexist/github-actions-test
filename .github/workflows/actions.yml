@@ -7,7 +7,7 @@ jobs:
     steps:
        - name: simple JS Actions
          id: greet
-         uses: mkitexist/github-actions-test@dcfe31c325da0f17fd5921ec0a4d8840e1fb7090
+         uses: mkitexist/github-actions-test@v1
          with:
             who-to-greet: John
             
