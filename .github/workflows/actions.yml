@@ -8,7 +8,13 @@ jobs:
        - name: List Files
          run: |
            pwd
-           ls
+           ls -a
+       - name: Checkout
+         uses: actions/checkout@v1
+       - name: List Files After Checkout
+         run: |
+          pwd
+          ls -a
        - name: simple JS Actions
          id: greet
          uses: actions/hello-world-javascript-action@main
@@ -19,3 +25,4 @@ jobs:
          run: echo "${{steps.greet.outputs.time}}"
 
 # https://github.com/actions/hello-world-javascript-action/tree/update-main this is where i linked actions 
+# https://github.com/actions/checkout this for actions checkout
