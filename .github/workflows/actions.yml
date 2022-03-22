@@ -5,6 +5,10 @@ jobs:
    run-github-actions:
     runs-on: ubuntu-latest
     steps:
+       - name: List Files
+         run: 
+           pwd
+           ls
        - name: simple JS Actions
          id: greet
          uses: actions/hello-world-javascript-action@main
@@ -13,3 +17,5 @@ jobs:
             
        - name: Log Greeting Time
          run: echo "${{steps.greet.outputs.time}}"
+
+# https://github.com/actions/hello-world-javascript-action/tree/update-main this is where i linked actions 
