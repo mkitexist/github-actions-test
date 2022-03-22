@@ -7,7 +7,7 @@ jobs:
     steps:
        - name: simple JS Actions
          id: greet
-         uses: mkitexist/github-actions-test@v1
+         uses: actions/hello-world-javascript-action @v1.1
          with:
             who-to-greet: John
             
